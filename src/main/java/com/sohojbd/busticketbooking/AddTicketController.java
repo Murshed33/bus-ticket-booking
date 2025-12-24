@@ -23,7 +23,7 @@ public class AddTicketController{
             String source = sourceChoice.getValue();
             String destination = destinationChoice.getValue();
 
-            if (busname.startsWith("Green line")) {
+            if (busname.startsWith("1")) {
                 selectedTicket = new BusTicket(passengername, source, destination, "Green line", "10-10-2025", "10:00 AM", "A1", 800);
             } else if (busname.startsWith("2")) {
                 selectedTicket = new BusTicket(passengername, source, destination, "Shohag", "10-10-2025", "12:0 PM", "B2", 700);
