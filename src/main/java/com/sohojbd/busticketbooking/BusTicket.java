@@ -1,12 +1,13 @@
 package com.sohojbd.busticketbooking;
 
 public class BusTicket {
-    private String passengername,busname,date,time,seatnumber;
+    private String passengername,source,destination,busname,date,time,seatnumber;
     private double price;
-    private int number;
-    BusTicket(String passengername,int number,String busname, String date, String time, String seatnumber,double price){
+
+    BusTicket(String passengername,String source, String destination,String busname, String date, String time, String seatnumber,double price){
         this.passengername=passengername;
-        this.number=number;
+        this.source=source;
+        this.destination=destination;
         this.busname=busname;
         this.date=date;
         this.time=time;
@@ -18,8 +19,12 @@ public class BusTicket {
         return passengername;
     }
 
-    public int getNumber() {
-        return number;
+    public String getSource() {
+        return source;
+    }
+
+    public String getDestination() {
+        return destination;
     }
 
     public String getBusname() {
