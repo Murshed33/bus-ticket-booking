@@ -3,6 +3,6 @@ module com.sohojbd.busticketbooking {
     requires javafx.fxml;
 
 
-    opens com.sohojbd.busticketbooking to javafx.fxml;
-    exports com.sohojbd.busticketbooking;
+    opens com.sohojbd.busticketbooking.busticketmanagement to javafx.fxml;
+    exports com.sohojbd.busticketbooking.busticketmanagement;
 }

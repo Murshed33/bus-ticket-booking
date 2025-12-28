@@ -1,4 +1,4 @@
-package com.sohojbd.busticketbooking;
+package com.sohojbd.busticketbooking.busticketmanagement;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -40,7 +40,7 @@ public class ConfirmTicketController {
     @FXML
     private void handleBack() throws Exception {
         FXMLLoader loader = new FXMLLoader(
-                getClass().getResource("/com/sohojbd/busticketbooking/add_ticket.fxml")
+                getClass().getResource("/com/sohojbd/busticketbooking/busticketmanagement/add_ticket.fxml")
         );
 
         Scene scene = new Scene(loader.load(), 400, 450);

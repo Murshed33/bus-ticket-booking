@@ -1,4 +1,4 @@
-package com.sohojbd.busticketbooking;
+package com.sohojbd.busticketbooking.busticketmanagement;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -47,7 +47,7 @@ public class AddTicketController {
         String seat = rows[random.nextInt(rows.length)] + seatNum;
 
         FXMLLoader loader = new FXMLLoader(
-                getClass().getResource("/com/sohojbd/busticketbooking/confirm_ticket.fxml")
+                getClass().getResource("/com/sohojbd/busticketbooking/busticketmanagement/confirm_ticket.fxml")
         );
 
         Scene scene = new Scene(loader.load(), 400, 400);

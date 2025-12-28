@@ -1,4 +1,4 @@
-package com.sohojbd.busticketbooking;
+package com.sohojbd.busticketbooking.busticketmanagement;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
