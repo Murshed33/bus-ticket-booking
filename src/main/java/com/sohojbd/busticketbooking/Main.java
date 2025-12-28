@@ -12,8 +12,6 @@ public class Main extends Application {
             stage.setTitle("---Bus Ticket Booking---");
             stage.setScene(scene);
             stage.show();
-
-            // Alif testing github
         }
     public static void main(String[] args) {
         launch();
