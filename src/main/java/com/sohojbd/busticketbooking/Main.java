@@ -6,8 +6,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
         public void start(Stage stage) throws Exception{
-            SceneController.switchScene("Confirm.fxml");
-            FXMLLoader loader= new FXMLLoader(Main.class.getResource("Register.fxml"));
+            FXMLLoader loader= new FXMLLoader(Main.class.getResource("login.fxml"));
             Scene scene= new Scene(loader.load(),600,500);
             stage.setTitle("---Bus Ticket Booking---");
             stage.setScene(scene);
