@@ -26,6 +26,7 @@ public class LoginController {
             if (inputUser.equals(username[i]) && inputPass.equals(password[i])) {
                 loginSuccess = true;
                 break;
+
             }
             if (loginSuccess) {
                 System.out.println(" Login Successful!");

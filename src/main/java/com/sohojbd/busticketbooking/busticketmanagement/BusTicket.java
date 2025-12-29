@@ -1,4 +1,4 @@
-package com.sohojbd.busticketbooking;
+package com.sohojbd.busticketbooking.busticketmanagement;
 
 public class BusTicket {
     private String passengername,source,destination,busname,date,time,seatnumber;
