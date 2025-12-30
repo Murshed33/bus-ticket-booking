@@ -12,7 +12,7 @@ public class Main extends Application {
 
         FXMLLoader loader = new FXMLLoader(
                 getClass().getResource(
-                        "/com/sohojbd/busticketbooking/busticketmanagement/add_ticket.fxml"
+                        "/com/sohojbd/busticketbooking/busticketmanagement/login.fxml"
                 )
         );
 
