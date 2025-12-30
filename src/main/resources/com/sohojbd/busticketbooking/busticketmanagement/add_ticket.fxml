@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="493.0" prefWidth="400" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" fx:controller="com.sohojbd.busticketbooking.busticketmanagement.AddTicketController">
+
+    <VBox layoutX="30.0" layoutY="26.0" prefHeight="336.0" prefWidth="318.0" spacing="12">
+
+        <Label style="-fx-font-size:18px; -fx-font-weight:bold;" text="Add Ticket" />
+
+        <TextField fx:id="nameField" promptText="Passenger Name" />
+
+        <ComboBox fx:id="busChoice" promptText="Select Bus" />
+
+        <ComboBox fx:id="sourceChoice" promptText="Select Source" />
+        <ComboBox fx:id="destinationChoice" promptText="Select Destination" />
+
+        <TextField fx:id="dateField" promptText="Date (e.g., 10-10-2025)" />
+        <TextField fx:id="timeField" promptText="Time (e.g., 10:00 AM)" />
+
+        <Button onAction="#handleConfirm" text="Confirm Ticket" />
+
+    </VBox>
+</AnchorPane>
