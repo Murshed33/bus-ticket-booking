@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.sohojbd.busticketbooking.busticketmanagement.LoginController"
+            prefWidth="400" prefHeight="300">
+
+    <children>
+
+        <Label text="Shohoj.bd E-Bus Login"
+               layoutX="110" layoutY="30"
+               style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+        <Label text="Username:" layoutX="60" layoutY="90" />
+        <TextField fx:id="usernameField"
+                   layoutX="150" layoutY="85"
+                   prefWidth="180" />
+
+        <Label text="Password:" layoutX="60" layoutY="140" />
+        <PasswordField fx:id="passwordField"
+                       layoutX="150" layoutY="135"
+                       prefWidth="180" />
+
+        <Button text="Login"
+                layoutX="150" layoutY="190"
+                prefWidth="100"
+                onAction="#handleLogin" />
+
+        <Label fx:id="messageLabel"
+               layoutX="110" layoutY="235"
+               style="-fx-text-fill: red;" />
+
+    </children>
+</AnchorPane>
