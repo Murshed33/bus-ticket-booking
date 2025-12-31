@@ -18,7 +18,7 @@
         <Label fx:id="seatLabel"/>
         <Label fx:id="priceLabel" style="-fx-text-fill: green; -fx-font-weight: bold;"/>
 
-        <Button text="Back" onAction="#handleBack"/>
+        <Button text="Payment" onAction="#handlepayment"/>
 
     </VBox>
 </AnchorPane>

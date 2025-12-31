@@ -1,5 +1,7 @@
 package com.sohojbd.busticketbooking.busticketmanagement;
 
+        /** Md. Murshed Ali */
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -16,7 +18,7 @@ public class Main extends Application {
                 )
         );
 
-        Scene scene = new Scene(loader.load(), 800, 600);
+        Scene scene = new Scene(loader.load(), 500, 500);
         stage.setTitle("Bus Ticket Management");
         stage.setScene(scene);
         stage.show();

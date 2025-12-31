@@ -1,5 +1,7 @@
 package com.sohojbd.busticketbooking.busticketmanagement;
 
+    /** Md.Murshed Ali(Code)
+        Neesa Siddika (FXML) */
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -38,9 +40,9 @@ public class ConfirmTicketController {
     }
 
     @FXML
-    private void handleBack() throws Exception {
+    private void handlepayment() throws Exception {
         FXMLLoader loader = new FXMLLoader(
-                getClass().getResource("/com/sohojbd/busticketbooking/busticketmanagement/add_ticket.fxml")
+                getClass().getResource("/com/sohojbd/busticketbooking/busticketmanagement/payment.fxml")
         );
 
         Scene scene = new Scene(loader.load(), 400, 450);

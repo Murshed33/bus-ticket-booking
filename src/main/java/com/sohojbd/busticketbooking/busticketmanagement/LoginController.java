@@ -1,5 +1,8 @@
 package com.sohojbd.busticketbooking.busticketmanagement;
-/* Alif */
+
+        /** Swaib Ahmed Alif (Code)
+            Farah Tasnim(FXML) */
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -18,8 +21,8 @@ public class LoginController {
     private Label messageLabel;
 
     // Sample users
-    private String[] username = {"Admin", "Alif", "Farah"};
-    private String[] password = {"1234", "166", "200"};
+    private String[] username = {"Murshed", "Alif", "Farah","Neesa","Suraiya"};
+    private String[] password = {"482", "166", "200","508","516"};
 
     @FXML
     public void handleLogin() {
@@ -40,11 +43,10 @@ public class LoginController {
         if (loginSuccess) {
             switchToAddTicket();
         } else {
-            messageLabel.setText("❌ Invalid Username or Password");
+            messageLabel.setText("Invalid Username or Password");
         }
     }
 
-    // 🔁 Scene Switch Method
     private void switchToAddTicket() {
         try {
             FXMLLoader loader = new FXMLLoader(
