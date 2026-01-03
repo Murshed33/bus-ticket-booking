@@ -5,10 +5,7 @@ package com.sohojbd.busticketbooking.busticketmanagement;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 public class PaymentController {
@@ -20,7 +17,7 @@ public class PaymentController {
     private ChoiceBox<String> paymentChoice;
 
     @FXML
-    private TextField pinField;
+    private PasswordField pinField;
 
     private final int AMOUNT = 800;
     private final String CORRECT_PIN = "0516";

@@ -7,6 +7,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import java.util.Random;
@@ -26,7 +27,7 @@ public class AddTicketController {
     private ComboBox<String> destinationChoice;
 
     @FXML
-    private TextField dateField;
+    private DatePicker dateField;
 
     @FXML
     private TextField timeField;
@@ -61,7 +62,7 @@ public class AddTicketController {
                 busChoice.getValue(),
                 sourceChoice.getValue(),
                 destinationChoice.getValue(),
-                dateField.getText(),
+                dateField.getValue().toString(),
                 timeField.getText(),
                 seat,
                 800

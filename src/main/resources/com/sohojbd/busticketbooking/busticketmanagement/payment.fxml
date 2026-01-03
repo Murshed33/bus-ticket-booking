@@ -30,7 +30,7 @@
            layoutX="80"
            layoutY="190"/>
 
-    <TextField fx:id="pinField"
+    <PasswordField fx:id="pinField"
                layoutX="200"
                layoutY="185"
                promptText="4-digit PIN"/>
