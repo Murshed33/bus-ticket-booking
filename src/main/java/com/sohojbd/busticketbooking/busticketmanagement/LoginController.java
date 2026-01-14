@@ -1,7 +1,7 @@
 package com.sohojbd.busticketbooking.busticketmanagement;
 
-        /** Swaib Ahmed Alif (Code)
-            Farah Tasnim(FXML) */
+/** Swaib Ahmed Alif (Code)
+ Farah Tasnim(FXML) */
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
