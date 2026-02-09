@@ -1,7 +1,5 @@
 package com.sohojbd.busticketbooking.busticketmanagement;
 
-/** Suraiya Tabassum **/
-
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

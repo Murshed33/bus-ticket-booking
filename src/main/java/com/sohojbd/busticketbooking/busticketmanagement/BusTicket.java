@@ -1,7 +1,5 @@
 package com.sohojbd.busticketbooking.busticketmanagement;
 
-        /** Md. Murshed Ali */
-
 public class BusTicket {
     private String passengername,source,destination,busname,date,time,seatnumber;
     private double price;
@@ -17,36 +15,6 @@ public class BusTicket {
         this.price=price;
     }
 
-    public String getPassengername() {
-        return passengername;
-    }
 
-    public String getSource() {
-        return source;
-    }
-
-    public String getDestination() {
-        return destination;
-    }
-
-    public String getBusname() {
-        return busname;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public String getTime() {
-        return time;
-    }
-
-    public String getSeatnumber() {
-        return seatnumber;
-    }
-
-    public double getPrice() {
-        return price;
-    }
 }
 

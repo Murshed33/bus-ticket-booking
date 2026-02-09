@@ -1,7 +1,5 @@
 package com.sohojbd.busticketbooking.busticketmanagement;
 
-        /** Md. Murshed Ali */
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
