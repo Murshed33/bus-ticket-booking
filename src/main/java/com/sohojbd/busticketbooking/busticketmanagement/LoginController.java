@@ -18,8 +18,8 @@ public class LoginController {
     private Label messageLabel;
 
     // Sample users
-    private String[] username = {"Murshed", "Alif", "Farah","Neesa","Suraiya"};
-    private String[] password = {"482", "166", "200","508","516"};
+    private String[] username = {"Murshed","Neesa","Suraiya"};
+    private String[] password = {"482","508","516"};
 
     @FXML
     public void handleLogin() {

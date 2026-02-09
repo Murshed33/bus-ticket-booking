@@ -34,7 +34,7 @@ public class ConfirmTicketController {
         routeLabel.setText("Route: " + source + " → " + destination);
         dateTimeLabel.setText("Date & Time: " + date + ", " + time);
         seatLabel.setText("Seat Number: " + seat);
-        priceLabel.setText("Price: " + price + " BDT");
+        priceLabel.setText("Price: " + price + " Taka");
     }
 
     @FXML

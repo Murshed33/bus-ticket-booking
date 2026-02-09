@@ -33,10 +33,10 @@ public class AddTicketController {
 
     @FXML
     public void initialize() {
-        busChoice.getItems().addAll("Green Line", "Hanif", "Shohag");
+        busChoice.getItems().addAll("Green-Line", "Hanif", "Shohag", "Apollo","Ena");
 
-        sourceChoice.getItems().addAll("Dhaka", "Chittagong", "Sylhet");
-        destinationChoice.getItems().addAll("Dhaka", "Chittagong", "Sylhet");
+        sourceChoice.getItems().addAll("Dhaka", "Chittagong", "Sylhet", "Joypurhat", "Khulna");
+        destinationChoice.getItems().addAll("Dhaka", "Chittagong","Rajshahi", "Sylhet", "Noakhali");
     }
 
     @FXML

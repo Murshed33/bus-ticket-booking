@@ -16,7 +16,7 @@ public class Main extends Application {
                 )
         );
 
-        Scene scene = new Scene(loader.load(), 500, 500);
+        Scene scene = new Scene(loader.load(), 510, 510);
         stage.setTitle("Bus Ticket Management");
         stage.setScene(scene);
         stage.show();

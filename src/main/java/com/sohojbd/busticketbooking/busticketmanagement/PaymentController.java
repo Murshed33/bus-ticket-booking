@@ -22,8 +22,8 @@ public class PaymentController {
 
     @FXML
     public void initialize() {
-        paymentChoice.getItems().addAll("BKash", "Nagad", "Rocket");
-        amountLabel.setText("Amount to Pay: " + AMOUNT + " BDT");
+        paymentChoice.getItems().addAll("BKash", "Nagad", "Rocket","Upay");
+        amountLabel.setText("Amount to Pay: " + AMOUNT + " Taka");
     }
 
     @FXML
@@ -37,7 +37,7 @@ public class PaymentController {
         if (pinField.getText().equals(CORRECT_PIN)) {
 
             showAlert("Payment Successful",
-                    "Payment of " + AMOUNT + " BDT completed using " + paymentChoice.getValue());
+                    "Payment of " + AMOUNT + " Taka completed using " + paymentChoice.getValue());
 
             // Go back to Add Ticket
             FXMLLoader loader = new FXMLLoader(
