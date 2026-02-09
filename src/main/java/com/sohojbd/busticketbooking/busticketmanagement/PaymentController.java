@@ -18,11 +18,11 @@ public class PaymentController {
     private PasswordField pinField;
 
     private final int AMOUNT = 800;
-    private final String CORRECT_PIN = "0516";
+    private final String CORRECT_PIN = "0482";
 
     @FXML
     public void initialize() {
-        paymentChoice.getItems().addAll("bKash", "Nagad", "Rocket");
+        paymentChoice.getItems().addAll("BKash", "Nagad", "Rocket");
         amountLabel.setText("Amount to Pay: " + AMOUNT + " BDT");
     }
 
